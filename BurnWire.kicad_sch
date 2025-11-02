@@ -2981,7 +2981,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "imported_footprints:CR_SMB_320-345BE_DIO"
 			(at 151.13 95.25 0)
 			(effects
 				(font
@@ -3189,7 +3189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "B6B-XH-A_LF__SN_:JST_B6B-XH-A_LF__SN_"
+		(property "Footprint" "imported_footprints:JST_B6B-XH-A_LF__SN_"
 			(at 100.33 124.46 0)
 			(effects
 				(font
@@ -3997,7 +3997,7 @@
 				)
 			)
 		)
-		(property "Value" "6uH"
+		(property "Value" "3.3uH"
 			(at 163.83 80.01 90)
 			(effects
 				(font
@@ -4005,7 +4005,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "imported_footprints:IND_NLV32T_TDK"
 			(at 163.83 82.55 0)
 			(effects
 				(font
