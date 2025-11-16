@@ -64,17 +64,17 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(sketchpadsonfab no)
+			(sketchpadsonfab yes)
 			(plotpadnumbers no)
 			(hidednponfab no)
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerber/")
 		)
 	)
 	(net 0 "")
@@ -88,7 +88,6 @@
 	(net 8 "/VCutN")
 	(net 9 "Net-(U1-FB)")
 	(net 10 "unconnected-(U1-NC-Pad6)")
-	(net 11 "unconnected-(U1-PADGND-Pad9)")
 	(footprint "TestPoint:TestPoint_2Pads_Pitch5.08mm_Drill1.3mm"
 		(layer "F.Cu")
 		(uuid "11702294-169d-483b-a975-5b09ebece04a")
@@ -280,7 +279,7 @@
 		(property "Reference" "U1"
 			(at 0 -3.4 0)
 			(layer "F.SilkS")
-			(uuid "1f8bee2c-6068-43cf-ba1a-4890a8dd067b")
+			(uuid "94fd537f-e6b8-4483-b2f3-d1e942f40911")
 			(effects
 				(font
 					(size 1 1)
@@ -291,7 +290,7 @@
 		(property "Value" "ADP2303ARDZ"
 			(at 0 3.4 0)
 			(layer "F.Fab")
-			(uuid "b2fe0a04-6aa8-49e4-8f65-895ac63fce68")
+			(uuid "c94d1a7f-6eff-4ebb-a8ae-fe68ba6075b9")
 			(effects
 				(font
 					(size 1 1)
@@ -303,7 +302,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b5b73d1-507a-41f7-9494-ba637e2491ac")
+			(uuid "cc75e2ca-0678-4eb2-9518-6caa1f02fa9e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -315,7 +314,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ddd30cb4-b947-4344-bf7f-c92e39ae1773")
+			(uuid "bc34dab4-98ed-4001-a20d-d7c37fc63ba8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -636,7 +635,7 @@
 			(size 2.29 3)
 			(property pad_prop_heatsink)
 			(layers "F.Cu" "F.Mask")
-			(net 11 "unconnected-(U1-PADGND-Pad9)")
+			(net 3 "GND")
 			(pinfunction "PADGND")
 			(pintype "power_in")
 			(zone_connect 2)
@@ -4388,14 +4387,6 @@
 		(uuid "00c12e00-e53e-489b-8a77-5fc2d755c740")
 	)
 	(segment
-		(start 155.951 89.549)
-		(end 162.9743 89.549)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "0990f503-2d38-470c-95a8-b210697ed0ad")
-	)
-	(segment
 		(start 160.5 103.5)
 		(end 160.5 103)
 		(width 0.2)
@@ -4410,6 +4401,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "1f752517-e319-424c-8394-2380c3a68f96")
+	)
+	(segment
+		(start 162.9743 89.549)
+		(end 165.049 91.6237)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "1fc0140b-b96e-41c5-8b11-81214158ead6")
 	)
 	(segment
 		(start 160.5 104.86475)
@@ -4476,22 +4475,6 @@
 		(uuid "7e611712-c775-49ee-941b-5958f84ca8ae")
 	)
 	(segment
-		(start 154.35 91.15)
-		(end 155.951 89.549)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "90ba7a8c-2a71-4b06-b94a-5a32fa09082b")
-	)
-	(segment
-		(start 162.9743 89.549)
-		(end 165.049 91.6237)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "b260335f-b943-43fa-b183-05ed52ff9855")
-	)
-	(segment
 		(start 157.63525 108)
 		(end 158.515 107.12025)
 		(width 0.2)
@@ -4532,12 +4515,28 @@
 		(uuid "d1127b82-964d-477a-9351-afd2db3fee57")
 	)
 	(segment
+		(start 154.35 91.15)
+		(end 155.951 89.549)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "dbfa9c4b-5302-48c5-9460-5f5fbf19d81b")
+	)
+	(segment
 		(start 159.8875 99.3875)
 		(end 158.9925 99.3875)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "e1a8188a-c85b-41ef-bb89-97657a5cfa19")
+	)
+	(segment
+		(start 155.951 89.549)
+		(end 162.9743 89.549)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "e6d4e09d-8fec-430e-8375-891e9812413f")
 	)
 	(segment
 		(start 162.5 94.1727)
@@ -4610,6 +4609,14 @@
 		(layer "B.Cu")
 		(net 2)
 		(uuid "c10e77a7-9eeb-4ded-ae06-3999b90eda21")
+	)
+	(segment
+		(start 157.015002 101.25)
+		(end 158.120002 100.145)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "06336e22-3399-4c15-9069-07dbb5d7be46")
 	)
 	(segment
 		(start 168.7574 91.6237)
@@ -4802,6 +4809,14 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "c7fc9c5d-30de-49ad-bea2-a008c30936bc")
+	)
+	(segment
+		(start 156.475 101.25)
+		(end 157.015002 101.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "c9d748fe-935b-47aa-a6b1-f442f6b86f69")
 	)
 	(segment
 		(start 158.590002 100.615)
