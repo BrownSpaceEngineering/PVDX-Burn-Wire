@@ -2107,6 +2107,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 38.1) (xy 66.04 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0545a0c6-4bad-48b5-8d7d-df38c4460378")
+	)
+	(wire
+		(pts
 			(xy 151.13 82.55) (xy 151.13 85.09)
 		)
 		(stroke
@@ -2407,6 +2417,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 59.69) (xy 66.04 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8152c26e-6e6c-4c6b-8c21-fb6cd05eceb3")
+	)
+	(wire
+		(pts
 			(xy 151.13 95.25) (xy 151.13 105.41)
 		)
 		(stroke
@@ -2477,6 +2497,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 46.99) (xy 66.04 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86c8bc2-9a37-4a4d-b5df-83037f5d0ffb")
+	)
+	(wire
+		(pts
 			(xy 143.51 95.25) (xy 143.51 87.63)
 		)
 		(stroke
@@ -2504,16 +2534,6 @@
 			(type default)
 		)
 		(uuid "cedee414-4c11-4584-9ade-7433acb31455")
-	)
-	(wire
-		(pts
-			(xy 66.04 63.5) (xy 66.04 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d06ecba5-d9ba-4656-9b74-3949eed1e9a4")
 	)
 	(wire
 		(pts
@@ -2635,16 +2655,6 @@
 		)
 		(uuid "1e0df7c7-291b-4dc5-96fc-79cb2b7a580a")
 	)
-	(label "VBatt"
-		(at 66.04 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3a8b1857-6887-43eb-80be-9e52f0c3cde8")
-	)
 	(label "EN"
 		(at 80.01 127 0)
 		(effects
@@ -2664,6 +2674,16 @@
 			(justify left bottom)
 		)
 		(uuid "78132c4a-3ef3-4464-b3f6-1b1276295f2a")
+	)
+	(label "VBatt"
+		(at 66.04 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c74b08f8-2a61-482e-ab0a-b220384cd458")
 	)
 	(label "Vout"
 		(at 80.01 132.08 0)
@@ -2878,6 +2898,76 @@
 			(project ""
 				(path "/f35490b1-adcb-463e-9dac-9bc4e552c2ef"
 					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 66.04 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2109d581-1ade-4b39-9b35-10fba1213035")
+		(property "Reference" "R5"
+			(at 68.58 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0K"
+			(at 68.58 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 65.024 42.926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 66.04 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6983b250-1e07-46ec-a031-7ade9efe2f48")
+		)
+		(pin "2"
+			(uuid "832b4f91-7aa7-47d0-a1bc-c8f2b59610ac")
+		)
+		(instances
+			(project "BurnWire"
+				(path "/f35490b1-adcb-463e-9dac-9bc4e552c2ef"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -3577,6 +3667,76 @@
 			(project ""
 				(path "/f35490b1-adcb-463e-9dac-9bc4e552c2ef"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 66.04 55.88 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a253654-6bb1-438e-89cb-9c54effc10d3")
+		(property "Reference" "R4"
+			(at 68.58 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0K"
+			(at 68.58 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 65.024 55.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 66.04 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a8e42b2-d4b7-4249-8f04-6f1829b39fc2")
+		)
+		(pin "2"
+			(uuid "df15d95b-6707-40fd-b3ed-5291af083987")
+		)
+		(instances
+			(project "BurnWire"
+				(path "/f35490b1-adcb-463e-9dac-9bc4e552c2ef"
+					(reference "R4")
 					(unit 1)
 				)
 			)
