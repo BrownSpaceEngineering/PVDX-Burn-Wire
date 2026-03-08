@@ -507,7 +507,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/Users/atharvchowdhary/Desktop/burnwire/gerber/",
+      "plot": "../burn_wire_gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
