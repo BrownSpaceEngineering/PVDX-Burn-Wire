@@ -1124,6 +1124,114 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint_Alt"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Alt"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point (alternative shape)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Alt_0_1"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.762 3.302) (xy 0 4.064) (xy 0.762 3.302) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Alt_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1980,6 +2088,12 @@
 		(uuid "94b4a2b8-44f5-42dd-84a2-38ef08a974cc")
 	)
 	(junction
+		(at 162.56 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "976bbb59-3a23-4658-b7df-5d09f03ce3a4")
+	)
+	(junction
 		(at 80.01 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2085,6 +2199,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 95.25) (xy 200.66 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a840e85-e7ab-40e2-90e2-2f148feba44a")
+	)
+	(wire
+		(pts
 			(xy 194.31 71.12) (xy 194.31 69.85)
 		)
 		(stroke
@@ -2142,6 +2266,16 @@
 			(type default)
 		)
 		(uuid "406065bc-6b08-4a5d-823f-b9c730574907")
+	)
+	(wire
+		(pts
+			(xy 162.56 95.25) (xy 162.56 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40cc07f2-8971-45b9-a0a1-2c3948b1f2f4")
 	)
 	(wire
 		(pts
@@ -2285,13 +2419,23 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 95.25) (xy 130.81 95.25)
+			(xy 130.81 95.25) (xy 162.56 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7f4773b3-8beb-4ca7-8d43-c02cf3cf52cb")
+	)
+	(wire
+		(pts
+			(xy 139.7 82.55) (xy 139.7 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb0ad22-c58b-435d-8f3e-28fde8c737af")
 	)
 	(wire
 		(pts
@@ -2493,16 +2637,6 @@
 		)
 		(uuid "03a65e6f-9c0c-4155-8673-b48158f1cc96")
 	)
-	(label "VCutN"
-		(at 143.51 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1de20582-12d1-49d0-b340-fb1578ded20a")
-	)
 	(label "VBatt"
 		(at 86.36 119.38 0)
 		(effects
@@ -2523,6 +2657,26 @@
 		)
 		(uuid "3a8b1857-6887-43eb-80be-9e52f0c3cde8")
 	)
+	(label "PGOOD"
+		(at 78.74 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "432da5e2-ca1c-4e2d-aac2-284a45e63bc3")
+	)
+	(label "BST"
+		(at 129.54 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4a281ae1-e701-474b-a385-7036c92092a5")
+	)
 	(label "EN"
 		(at 80.01 127 0)
 		(effects
@@ -2542,6 +2696,26 @@
 			(justify left bottom)
 		)
 		(uuid "78132c4a-3ef3-4464-b3f6-1b1276295f2a")
+	)
+	(label "SW"
+		(at 139.7 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b43ab8d-450e-4cea-82db-f4d6882bc1d1")
+	)
+	(label "VCutN"
+		(at 130.81 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc4a968c-81f7-44cc-af52-c3e7a1418b02")
 	)
 	(label "Vout"
 		(at 80.01 132.08 0)
@@ -2918,6 +3092,73 @@
 			(project ""
 				(path "/f35490b1-adcb-463e-9dac-9bc4e552c2ef"
 					(reference "CR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 162.56 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f267de1-e0fb-488a-abe1-a24b484caae8")
+		(property "Reference" "TP2"
+			(at 165.1 88.1379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Alt"
+			(at 165.1 90.6779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 162.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e88328ff-db0a-4bff-8416-d8e88003717c")
+		)
+		(instances
+			(project ""
+				(path "/f35490b1-adcb-463e-9dac-9bc4e552c2ef"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -3337,7 +3578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "531dd4b3-efdf-4d9c-8e80-28f3342f6a50")
-		(property "Reference" "R1"
+		(property "Reference" "RTop"
 			(at 203.2 87.6299 0)
 			(effects
 				(font
@@ -3391,7 +3632,7 @@
 		(instances
 			(project ""
 				(path "/f35490b1-adcb-463e-9dac-9bc4e552c2ef"
-					(reference "R1")
+					(reference "RTop")
 					(unit 1)
 				)
 			)
@@ -3468,6 +3709,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Alt")
+		(at 139.7 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72328f98-7a93-4563-a523-38b78f2a7211")
+		(property "Reference" "TP1"
+			(at 142.24 87.1219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint_Alt"
+			(at 142.24 89.6619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point (alternative shape)"
+			(at 139.7 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8d8ea972-8bfc-4611-bbae-e6012069a13b")
+		)
+		(instances
+			(project ""
+				(path "/f35490b1-adcb-463e-9dac-9bc4e552c2ef"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 200.66 101.6 0)
 		(unit 1)
@@ -3477,7 +3785,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77e7b6fb-cb34-4bd9-b691-8ead9619dac7")
-		(property "Reference" "R2"
+		(property "Reference" "RBott"
 			(at 203.2 100.3299 0)
 			(effects
 				(font
@@ -3531,7 +3839,7 @@
 		(instances
 			(project ""
 				(path "/f35490b1-adcb-463e-9dac-9bc4e552c2ef"
-					(reference "R2")
+					(reference "RBott")
 					(unit 1)
 				)
 			)
