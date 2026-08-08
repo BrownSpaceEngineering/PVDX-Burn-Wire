@@ -363,12 +363,6 @@
 		(path "/4139b674-57d6-469d-8dd9-954afc36f2c8")
 		(sheetname "/")
 		(sheetfile "Burn Wire Dev Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -654,12 +648,6 @@
 		(path "/b46aae87-7877-4f0b-a5bb-22e92dbf2bd0")
 		(sheetname "/")
 		(sheetfile "Burn Wire Dev Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -815,12 +803,6 @@
 		(path "/f2c8fed3-84e6-4b3a-a3a8-b51890c0d71d")
 		(sheetname "/")
 		(sheetfile "Burn Wire Dev Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1262,7 +1244,6 @@
 			(uuid "ddcbe3b8-9ab6-44eb-905c-42f1e4ce7fd6")
 		)
 		(embedded_fonts no)
-		(embedded_files)
 		(model "kicad-embed://92000A011_Passivated 18-8 Stainless Steel Pan Head Phillips Screws.STEP"
 			(offset
 				(xyz 0 -0 -3.9)
@@ -1539,12 +1520,6 @@
 		(path "/d34fcfa3-aea9-494d-87dd-8277d17e946b")
 		(sheetname "/")
 		(sheetfile "Burn Wire Dev Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2786,12 +2761,6 @@
 		(path "/6de6f949-4763-48b4-97ea-8727416d8bfe")
 		(sheetname "/")
 		(sheetfile "Burn Wire Dev Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2935,9 +2904,6 @@
 			(net "TO_COMPUTE")
 			(pinfunction "Pin_1_1")
 			(pintype "passive")
-			(solder_mask_margin 0.2)
-			(solder_paste_margin 0)
-			(clearance 0.2)
 			(uuid "9db0e16f-801b-4931-973f-437d356df29a")
 		)
 		(embedded_fonts no)
@@ -3087,12 +3053,6 @@
 		(path "/c3faef43-1073-4e67-8c48-a7c2b879b867")
 		(sheetname "/")
 		(sheetfile "Burn Wire Dev Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2" "3" "4" "5" "6")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3402,12 +3362,6 @@
 		(path "/101e5c50-3cf9-4866-86bb-fad0aec5c962")
 		(sheetname "/")
 		(sheetfile "Burn Wire Dev Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "3" "4" "6" "7" "9" "1" "8" "5")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3824,12 +3778,6 @@
 		(path "/30aa6efa-2220-432b-99c0-b75bd93a8492")
 		(sheetname "/")
 		(sheetfile "Burn Wire Dev Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4146,12 +4094,6 @@
 		(path "/3558392f-0d6d-4f03-bbc2-cac6c07d097a")
 		(sheetname "/")
 		(sheetfile "Burn Wire Dev Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "2" "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4453,7 +4395,6 @@
 			(uuid "e6767e2d-dd0e-437d-803a-1441fa25815b")
 		)
 		(embedded_fonts no)
-		(embedded_files)
 		(model "kicad-embed://92000A011_Passivated 18-8 Stainless Steel Pan Head Phillips Screws.STEP"
 			(offset
 				(xyz 0 -0 -3.9)
@@ -4663,12 +4604,6 @@
 		(path "/34759a9f-b9c1-4913-b47e-a7525e39135b")
 		(sheetname "/")
 		(sheetfile "Burn Wire Dev Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -4954,12 +4889,6 @@
 		(path "/9588c10c-78e8-48a0-a011-37a73f56055c")
 		(sheetname "/")
 		(sheetfile "Burn Wire Dev Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5111,7 +5040,6 @@
 			(uuid "6c2bcff3-45b4-4bae-9535-400273a42a42")
 		)
 		(embedded_fonts no)
-		(embedded_files)
 		(model "kicad-embed://92000A011_Passivated 18-8 Stainless Steel Pan Head Phillips Screws.STEP"
 			(offset
 				(xyz 0 -0 -3.9)
@@ -5321,12 +5249,6 @@
 		(path "/ad0fdb72-bc76-4d8e-981f-9335ebecbc20")
 		(sheetname "/")
 		(sheetfile "Burn Wire Dev Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5610,12 +5532,6 @@
 		(path "/ceb86707-7edb-4725-937c-a7b92ab6c9da")
 		(sheetname "/")
 		(sheetfile "Burn Wire Dev Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5688,12 +5604,6 @@
 			(net "Net-(U1-FB)")
 			(pintype "passive")
 			(uuid "5d894073-8b2a-4a27-a8d3-755f5a7ae748")
-		)
-		(variant
-			(name "Build")
-			(dnp yes)
-			(exclude_from_bom yes)
-			(exclude_from_pos_files yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
@@ -5905,12 +5815,6 @@
 		(path "/b63a7e6b-3462-463e-9ea8-5dc108c500b6")
 		(sheetname "/")
 		(sheetfile "Burn Wire Dev Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5983,12 +5887,6 @@
 			(net "/BURN_POS")
 			(pintype "passive")
 			(uuid "1b3cd906-e3c1-448b-b5b3-2b4709261192")
-		)
-		(variant
-			(name "Build")
-			(dnp yes)
-			(exclude_from_bom yes)
-			(exclude_from_pos_files yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
@@ -6199,12 +6097,6 @@
 		(path "/a079ff1e-7be9-45f7-8556-551d58a3fd0a")
 		(sheetname "/")
 		(sheetfile "Burn Wire Dev Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6277,12 +6169,6 @@
 			(net "/BURN_NEG")
 			(pintype "passive")
 			(uuid "c022a360-4cb3-4421-8164-457c6557a076")
-		)
-		(variant
-			(name "Build")
-			(dnp yes)
-			(exclude_from_bom yes)
-			(exclude_from_pos_files yes)
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2512_6332Metric.step"
@@ -6494,12 +6380,6 @@
 		(path "/0648bbfb-16e7-4cde-aa71-f1d898461282")
 		(sheetname "/")
 		(sheetfile "Burn Wire Dev Board.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10382,15 +10262,15 @@
 		(uuid "b3a4e300-f8b8-47f3-a7bb-3e5e4691ae1e")
 	)
 	(gr_rect
-		(start 93.5911 84.46845)
-		(end 185.8311 126.23875)
+		(start 99.2645 26.7032)
+		(end 182.0177 141.6636)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "8169ce84-cb0c-4ca0-a211-2eb96f2b49df")
+		(uuid "d52d693c-424f-41e2-a52e-e81991655033")
 	)
 	(gr_rect
 		(start 99.2645 26.7032)
