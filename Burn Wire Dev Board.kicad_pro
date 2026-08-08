@@ -667,7 +667,7 @@
         "uuid": "0fd6e625-7aca-4166-a19e-36e67376263d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1,TP1-5,J1-3,D1,#PWR1-19,C1-5,L1,*1-3,R1-6",
     "variants": [
       {
         "name": "Build"
