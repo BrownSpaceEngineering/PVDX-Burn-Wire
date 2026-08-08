@@ -279,480 +279,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Burn Wire Dev Board:root_0_J-0532610671_Burn Wire Dev Board.SchLib"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "CONN HEADER SMD R/A 6POS 1.25MM"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*J-0532610671*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "root_0_J-0532610671_Burn Wire Dev Board.SchLib_1_0"
-				(polyline
-					(pts
-						(xy -12.7 6.35) (xy -12.7 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.7 -7.62) (xy 12.7 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -11.43 7.62) (xy -12.7 6.35)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -10.16 7.62) (xy -10.16 5.715)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -9.842 5.397)
-					(end -10.477 6.985)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -7.62 7.62) (xy -7.62 5.715)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -7.302 5.397)
-					(end -7.937 6.985)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 7.62) (xy -2.54 5.715)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.222 5.397)
-					(end -2.857 6.985)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 7.62) (xy 0 5.715)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.318 5.397)
-					(end -0.317 6.985)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 7.62) (xy 2.54 5.715)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.858 5.397)
-					(end 2.223 6.985)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 7.62) (xy 5.08 5.715)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.398 5.397)
-					(end 4.763 6.985)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 7.62) (xy 7.62 5.715)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 7.938 5.397)
-					(end 7.303 6.985)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 7.62) (xy 10.16 5.715)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 10.478 5.397)
-					(end 9.843 6.985)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.43 7.62) (xy -11.43 7.62)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 11.43 7.62) (xy 12.7 6.35)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -7.62) (xy 12.7 6.35)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 10.16 12.7 270)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 12.7 270)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 12.7 270)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 12.7 270)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 12.7 270)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 12.7 270)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 12.7 270)
-					(length 5.08)
-					(name "SHIELD1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 12.7 270)
-					(length 5.08)
-					(name "SHIELD2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Burn Wire Dev Board:root_0_L-IHLP4040DZER6R8M01_Burn Wire Dev Board.SchLib"
 			(pin_numbers
 				(hide yes)
@@ -1230,200 +756,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Burn Wire Dev Board:root_0_mirrored_J-TSM-106-01-F-SV_Burn Wire Dev Board.SchLib"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "CONN HEADER SMD 6POS 2.54MM"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*J-TSM-106-01-F-SV*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "root_0_mirrored_J-TSM-106-01-F-SV_Burn Wire Dev Board.SchLib_1_0"
-				(rectangle
-					(start 7.62 5.08)
-					(end -10.16 -5.08)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 5.08 10.16 270)
-					(length 5.08)
-					(name "01"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "01"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 10.16 270)
-					(length 5.08)
-					(name "02"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "02"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 10.16 270)
-					(length 5.08)
-					(name "03"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "03"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 10.16 270)
-					(length 5.08)
-					(name "04"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "04"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 10.16 270)
-					(length 5.08)
-					(name "05"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "05"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 10.16 270)
-					(length 5.08)
-					(name "06"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "06"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2266,11 +1598,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Burn Wire Dev Board:root_3_D-B540C-13-F_Burn Wire Dev Board.SchLib"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -2278,8 +1608,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "J"
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2288,8 +1618,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2320,7 +1650,7 @@
 					)
 				)
 			)
-			(property "Description" "DIODE SCHOTTKY 40V 5A SMC"
+			(property "Description" "Generic connector, single row, 01x01, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2331,7 +1661,17 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*D-B540C-13-F*"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2342,162 +1682,52 @@
 					)
 				)
 			)
-			(symbol "root_3_D-B540C-13-F_Burn Wire Dev Board.SchLib_1_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 0 -1.27)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
 					(stroke
-						(width 0)
-						(type solid)
+						(width 0.1524)
+						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 -0.635)
+						(xy 1.27 0) (xy 0.8636 0)
 					)
 					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -0.635) (xy -1.27 -0.635)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.905) (xy 1.016 -1.905)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.905) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type solid)
+						(width 0.1524)
+						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "A"
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2505,8 +1735,664 @@
 						)
 					)
 				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x06_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_Pin"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x06_Pin_1_1"
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -2515,7 +2401,25 @@
 							)
 						)
 					)
-					(number "C"
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3480,10 +3384,10 @@
 		(uuid "f6b7eade-ddeb-4d8d-8465-a873652e5c38")
 	)
 	(junction
-		(at 139.7 159.2072)
+		(at 223.52 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "06d9f2dc-2d65-4707-8d83-d83129e7d67e")
+		(uuid "078ba9b1-33d5-4ae2-a558-bbbd64c53894")
 	)
 	(junction
 		(at 168.91 78.74)
@@ -3492,34 +3396,16 @@
 		(uuid "21ee4932-a374-4af8-abd2-fb07d288e527")
 	)
 	(junction
-		(at 237.49 65.2272)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2291d102-f30d-4bc2-a052-bed269e5a448")
-	)
-	(junction
-		(at 223.52 65.2272)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2759aec5-fe22-4c21-be44-3e0f0f445a08")
-	)
-	(junction
-		(at 139.7 156.6672)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ab74013-cdda-4927-a780-a5da30d50eb2")
-	)
-	(junction
-		(at 52.07 113.4872)
+		(at 45.72 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2abbb2c2-b29c-4811-8f63-a6ad6054030f")
 	)
 	(junction
-		(at 139.7 176.9872)
+		(at 229.87 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3b42fe56-cc09-4984-bd07-7236a853ce9a")
+		(uuid "2fc7b20c-6385-4e1d-914e-1c0c43b5db29")
 	)
 	(junction
 		(at 215.9 91.44)
@@ -3540,16 +3426,16 @@
 		(uuid "4bedc54d-018e-41ab-ab4e-b0789b74e535")
 	)
 	(junction
+		(at 237.49 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5678012d-185b-4815-b905-3f98c0400656")
+	)
+	(junction
 		(at 234.95 108.4072)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f84a24f-9dd9-47e8-b8e8-85db59a45e80")
-	)
-	(junction
-		(at 139.7 169.3672)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77854c85-71a6-4300-9a9f-4bd905f9bce9")
 	)
 	(junction
 		(at 60.96 57.6072)
@@ -3564,40 +3450,34 @@
 		(uuid "8474d585-a001-44bd-af0b-8eb2fe92e3b5")
 	)
 	(junction
-		(at 229.87 65.2272)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8feb6fe0-71c5-40a2-aa4a-fc3468c9351f")
-	)
-	(junction
 		(at 129.54 62.6872)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aabaa322-08dc-4e6d-8402-23176ae608fb")
 	)
 	(junction
-		(at 139.7 166.8272)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae3959ca-bab6-48ae-956a-6591f03fc730")
-	)
-	(junction
-		(at 194.31 65.2272)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b72b7b7a-a886-4cdb-b608-8751bb9610c3")
-	)
-	(junction
-		(at 52.07 116.0272)
+		(at 45.72 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3730fd4-b96e-4e4e-ba2a-dd2818321a58")
 	)
 	(junction
-		(at 189.23 65.2272)
+		(at 189.23 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fa955910-98ad-458d-bcde-cd19b9cf6f5f")
+		(uuid "f11923bf-97e1-4c31-8974-82d5c68d55cd")
+	)
+	(junction
+		(at 194.31 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa738625-7382-4ba2-b83e-97db8781c725")
+	)
+	(junction
+		(at 237.49 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa9fa927-b455-48c5-a491-e8f1342f96f2")
 	)
 	(wire
 		(pts
@@ -3621,6 +3501,26 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 66.04) (xy 199.39 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032c2693-92f9-4ab6-97d6-e353d420912f")
+	)
+	(wire
+		(pts
+			(xy 237.49 66.04) (xy 237.49 65.2272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0961ed65-316c-4562-802d-5b2247750a86")
+	)
+	(wire
+		(pts
 			(xy 168.91 78.74) (xy 171.45 78.74)
 		)
 		(stroke
@@ -3641,7 +3541,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 113.4872) (xy 52.07 116.0272)
+			(xy 45.72 115.57) (xy 45.72 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3661,7 +3561,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 65.2272) (xy 251.46 65.2272)
+			(xy 237.49 66.04) (xy 251.46 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3681,7 +3581,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 116.0272) (xy 50.8 116.0272)
+			(xy 45.72 118.11) (xy 44.45 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3691,7 +3591,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 116.0272) (xy 52.07 118.5672)
+			(xy 45.72 118.11) (xy 45.72 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3711,6 +3611,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 66.04) (xy 189.23 65.2272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b00931-7054-45cb-a2e8-ef72a791139e")
+	)
+	(wire
+		(pts
 			(xy 45.72 57.6072) (xy 60.96 57.6072)
 		)
 		(stroke
@@ -3721,7 +3631,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 156.6672) (xy 121.92 156.6672)
+			(xy 142.24 156.21) (xy 124.46 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3751,23 +3661,33 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 161.7472) (xy 139.7 159.2072)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52a0d3f9-1351-4396-adc9-6c815d14ffc4")
-	)
-	(wire
-		(pts
-			(xy 228.6 91.44) (xy 231.14 91.44)
+			(xy 228.6 91.44) (xy 237.49 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "58f90125-89a4-4fe8-8d61-4a2bb2ebf79d")
+	)
+	(wire
+		(pts
+			(xy 223.52 74.1172) (xy 223.52 72.8472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5aafc061-4178-4f46-a2af-fef6b9055c6f")
+	)
+	(wire
+		(pts
+			(xy 229.87 66.04) (xy 229.87 65.2272)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e189752-6475-4c87-8185-7e7de0432d5f")
 	)
 	(wire
 		(pts
@@ -3791,7 +3711,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 65.2272) (xy 237.49 65.2272)
+			(xy 229.87 66.04) (xy 237.49 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3811,7 +3731,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 65.2272) (xy 229.87 65.2272)
+			(xy 223.52 66.04) (xy 229.87 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3821,17 +3741,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 164.2872) (xy 139.7 166.8272)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b5b5fc6-78d0-428d-b82c-890eddb605d7")
-	)
-	(wire
-		(pts
-			(xy 139.7 169.3672) (xy 121.92 169.3672)
+			(xy 142.24 158.75) (xy 124.46 158.75)
 		)
 		(stroke
 			(width 0)
@@ -3851,16 +3761,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 176.9872) (xy 139.7 174.4472)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92e30a46-81be-40bd-a55f-93e8ee7942cc")
-	)
-	(wire
-		(pts
 			(xy 153.67 70.3072) (xy 139.7 70.3072)
 		)
 		(stroke
@@ -3871,7 +3771,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 118.5672) (xy 50.8 118.5672)
+			(xy 45.72 120.65) (xy 44.45 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3921,7 +3821,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 113.4872) (xy 52.07 113.4872)
+			(xy 44.45 115.57) (xy 45.72 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3931,7 +3831,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 105.8672) (xy 60.96 105.8672)
+			(xy 44.45 107.95) (xy 54.61 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3961,7 +3861,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 113.4872) (xy 72.39 113.4872)
+			(xy 45.72 115.57) (xy 66.04 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3971,23 +3871,33 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 159.2072) (xy 139.7 156.6672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a986a697-7867-4863-a88c-8cb913d46810")
-	)
-	(wire
-		(pts
-			(xy 185.42 65.2272) (xy 189.23 65.2272)
+			(xy 185.42 66.04) (xy 189.23 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ac860c44-bdfc-48bd-84f9-19c2839852fd")
+	)
+	(wire
+		(pts
+			(xy 223.52 66.04) (xy 223.52 66.4972)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae582004-ea5a-4c62-9adf-25446fb0630b")
+	)
+	(wire
+		(pts
+			(xy 237.49 73.66) (xy 237.49 72.8472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1ca562b-2d26-4d50-a081-30cc1cb27ab4")
 	)
 	(wire
 		(pts
@@ -4011,23 +3921,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 68.58) (xy 185.42 65.2272)
+			(xy 185.42 68.58) (xy 185.42 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ba209138-8f05-4836-80b3-7b07996485c3")
-	)
-	(wire
-		(pts
-			(xy 189.23 65.2272) (xy 194.31 65.2272)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baed4ba9-8672-4328-80ef-6074e6622a47")
 	)
 	(wire
 		(pts
@@ -4041,7 +3941,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 110.9472) (xy 60.96 110.9472)
+			(xy 44.45 113.03) (xy 54.61 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4061,23 +3961,33 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 166.8272) (xy 139.7 169.3672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6ea1669-73e3-4d03-a3b1-e4ceb0c37c9c")
-	)
-	(wire
-		(pts
-			(xy 194.31 65.2272) (xy 199.39 65.2272)
+			(xy 189.23 66.04) (xy 194.31 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cd195b47-44f9-4515-8c20-054b53bd5642")
+	)
+	(wire
+		(pts
+			(xy 237.49 91.44) (xy 242.57 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d521f975-7c0a-4f42-a901-102062744def")
+	)
+	(wire
+		(pts
+			(xy 251.46 73.66) (xy 251.46 72.8472)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d58c8622-ee25-4dfe-838a-5c6dcb241393")
 	)
 	(wire
 		(pts
@@ -4101,7 +4011,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 108.4072) (xy 50.8 108.4072)
+			(xy 62.23 110.49) (xy 44.45 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4131,7 +4041,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 113.4872) (xy 72.39 121.1072)
+			(xy 66.04 115.57) (xy 66.04 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4151,7 +4061,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 65.2272) (xy 223.52 65.2272)
+			(xy 214.63 66.04) (xy 223.52 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4160,7 +4070,7 @@
 		(uuid "ffb0c89c-20a7-4f6f-a008-0ecb899f82ef")
 	)
 	(label "ENABLE"
-		(at 50.8 105.8672 0)
+		(at 44.45 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4170,7 +4080,7 @@
 		(uuid "56275d25-fe5a-4e04-97b6-9601c1404707")
 	)
 	(label "PGOOD"
-		(at 50.8 110.9472 0)
+		(at 44.45 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4180,7 +4090,7 @@
 		(uuid "582369fd-703c-4606-a344-ba9bb183dd3f")
 	)
 	(label "BURN_NEG"
-		(at 121.92 169.3672 0)
+		(at 124.46 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4200,7 +4110,7 @@
 		(uuid "714ca618-6553-4f44-830e-881141ab6cad")
 	)
 	(label "BURN_POS"
-		(at 240.03 65.2272 0)
+		(at 240.03 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4250,7 +4160,7 @@
 		(uuid "e755a74e-9d52-4c84-9d54-0bf1ddb942b6")
 	)
 	(label "BURN_POS"
-		(at 121.92 156.6672 0)
+		(at 124.46 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4261,7 +4171,7 @@
 	)
 	(global_label "TO_COMPUTE"
 		(shape output)
-		(at 231.14 91.44 0)
+		(at 242.57 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4271,7 +4181,7 @@
 		)
 		(uuid "0b34e7ce-449a-49b0-8356-e32ed784330a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.1599 91.44 0)
+			(at 257.5899 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4285,7 +4195,7 @@
 	)
 	(symbol
 		(lib_id "Burn Wire Dev Board:root_3_CC-25SVPF47M_Burn Wire Dev Board.SchLib")
-		(at 251.46 65.2272 0)
+		(at 251.46 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4295,7 +4205,7 @@
 		(dnp no)
 		(uuid "0648bbfb-16e7-4cde-aa71-f1d898461282")
 		(property "Reference" "C5"
-			(at 254.254 69.1342 0)
+			(at 254.254 69.947 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4306,7 +4216,7 @@
 			)
 		)
 		(property "Value" "47 uF"
-			(at 248.666 64.7192 0)
+			(at 248.666 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4318,7 +4228,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 251.46 65.2272 0)
+			(at 251.46 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4329,7 +4239,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 65.2272 0)
+			(at 251.46 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4340,7 +4250,7 @@
 			)
 		)
 		(property "Description" "CAP ALUM POLY 47UF 20% 25V SMD"
-			(at 251.46 65.2272 0)
+			(at 251.46 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4351,7 +4261,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 248.666 64.7192 0)
+			(at 248.666 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4363,7 +4273,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "*"
-			(at 248.666 64.7192 0)
+			(at 248.666 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4375,7 +4285,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "Manufacture Website"
-			(at 248.666 64.7192 0)
+			(at 248.666 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4387,7 +4297,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "*"
-			(at 248.666 64.7192 0)
+			(at 248.666 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4399,7 +4309,7 @@
 			)
 		)
 		(property "DISTRIBUTOR" "Digikey"
-			(at 248.666 64.7192 0)
+			(at 248.666 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4411,7 +4321,7 @@
 			)
 		)
 		(property "DISTRIBUTOR PART #" "P16513CT-ND"
-			(at 248.666 64.7192 0)
+			(at 248.666 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4423,7 +4333,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Panasonic Electronic Components"
-			(at 248.666 64.7192 0)
+			(at 248.666 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4435,7 +4345,7 @@
 			)
 		)
 		(property "MANUFACTURER PART #" "25SVPF47M"
-			(at 248.666 64.7192 0)
+			(at 248.666 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4447,7 +4357,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" "CAP ALUM POLY 47UF 20% 25V SMD"
-			(at 248.666 64.7192 0)
+			(at 248.666 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4459,7 +4369,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "47 uF"
-			(at 254.254 71.6742 0)
+			(at 254.254 72.487 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4606,135 +4516,6 @@
 			(project "Burn Wire Dev Board"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Burn Wire Dev Board:root_3_D-B540C-13-F_Burn Wire Dev Board.SchLib")
-		(at 194.31 70.3072 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0c90de90-c3c2-4d81-ba2b-938cee4fa402")
-		(property "Reference" "D1"
-			(at 195.834 70.0532 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "B540C-13-F"
-			(at 195.834 72.5932 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "burn_wire:CR_SMB_320-345BE_DIO-L"
-			(at 194.31 70.3072 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 70.3072 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "DIODE SCHOTTKY 40V 5A SMC"
-			(at 194.31 70.3072 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Diodes Incorporated"
-			(at 192.786 64.7192 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER PART #" "B540C-13-F"
-			(at 192.786 64.7192 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "DISTRIBUTOR PART #" "B540C-FDICT-ND"
-			(at 192.786 64.7192 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "DISTRIBUTOR" "Digikey"
-			(at 192.786 64.7192 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "A"
-			(uuid "b2f7e25e-d780-4ab7-8f24-21c4b08acc2a")
-		)
-		(pin "C"
-			(uuid "aa1d21f7-6925-44d7-9d86-c2b3648ed5f3")
-		)
-		(instances
-			(project "Burn Wire Dev Board"
-				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -4980,7 +4761,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13c98deb-853f-4b71-88dc-53a77e39defd")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 270.51 165.5572 0)
 			(hide yes)
 			(show_name no)
@@ -5037,7 +4818,7 @@
 		(instances
 			(project "Burn Wire Dev Board"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5054,7 +4835,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1762fc4d-0cb4-4829-a7d9-822303552dbc")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 251.46 72.8472 0)
 			(hide yes)
 			(show_name no)
@@ -5111,7 +4892,7 @@
 		(instances
 			(project "Burn Wire Dev Board"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5128,7 +4909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23c1fe90-d85b-4e58-8ce2-d5bba08edb00")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 203.2 168.0972 0)
 			(hide yes)
 			(show_name no)
@@ -5185,7 +4966,7 @@
 		(instances
 			(project "Burn Wire Dev Board"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5202,7 +4983,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "296d0cf5-52dd-44ca-88bc-43694f207365")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 215.9 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -5259,7 +5040,7 @@
 		(instances
 			(project "Burn Wire Dev Board"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5267,7 +5048,7 @@
 	)
 	(symbol
 		(lib_id "Burn Wire Dev Board-altium-import:GND_POWER_GROUND")
-		(at 72.39 121.1072 0)
+		(at 66.04 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5277,7 +5058,7 @@
 		(dnp no)
 		(uuid "304fad34-6e62-484d-acdf-885073eb7645")
 		(property "Reference" "#PWR04"
-			(at 72.39 121.1072 0)
+			(at 66.04 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5288,7 +5069,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 127.4572 0)
+			(at 66.04 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5298,7 +5079,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 121.1072 0)
+			(at 66.04 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5308,7 +5089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 121.1072 0)
+			(at 66.04 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5318,7 +5099,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 121.1072 0)
+			(at 66.04 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5334,6 +5115,88 @@
 			(project "Burn Wire Dev Board"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 147.32 158.75 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30aa6efa-2220-432b-99c0-b75bd93a8492")
+		(property "Reference" "J3"
+			(at 148.59 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 148.59 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 147.32 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 147.32 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f7e3011-23f1-4e58-b850-035364430665")
+		)
+		(pin "2"
+			(uuid "01096a51-6b5f-4b9a-a0f8-746bd275236d")
+		)
+		(instances
+			(project "Burn Wire Dev Board"
+				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5552,7 +5415,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3558392f-0d6d-4f03-bbc2-cac6c07d097a")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 38.1 55.0672 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5664,154 +5527,7 @@
 		(instances
 			(project "Burn Wire Dev Board"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Burn Wire Dev Board:root_0_J-0532610671_Burn Wire Dev Board.SchLib")
-		(at 152.4 166.8272 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3643dbac-62fa-49f1-8954-b04f6d4eb951")
-		(property "Reference" "J3"
-			(at 144.526 153.8732 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "J-0532610671"
-			(at 144.526 182.3212 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 152.4 166.8272 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 166.8272 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "CONN HEADER SMD R/A 6POS 1.25MM"
-			(at 152.4 166.8272 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANFACTURER" "Molex"
-			(at 139.192 153.8732 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "DISTRIBUTOR" "Digi-Key"
-			(at 139.192 153.8732 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANFACTURER PART #" "0532610671"
-			(at 139.192 153.8732 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "DISTRIBUTOR PART #" "WM7624CT-ND"
-			(at 139.192 153.8732 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "2"
-			(uuid "e16b8b6e-6897-480e-a50b-6af3d375a81c")
-		)
-		(pin "4"
-			(uuid "bf873435-ad7f-4413-b921-3d36c7be36b3")
-		)
-		(pin "5"
-			(uuid "41d5a2ad-4887-4bf1-9e01-a3ef0170052a")
-		)
-		(pin "6"
-			(uuid "05d75981-e91a-4ef5-bd11-f7b47d11945d")
-		)
-		(pin "S1"
-			(uuid "4e792e79-1670-4a8d-b672-a55048538168")
-		)
-		(pin "S2"
-			(uuid "3263c823-44b0-4a58-a30e-66746206bda9")
-		)
-		(pin "1"
-			(uuid "e985060c-51b8-4b23-a715-9ea0bbc9cec7")
-		)
-		(pin "3"
-			(uuid "5ec6c0f2-9fe8-4a5c-8c6f-b57a38aa214c")
-		)
-		(instances
-			(project "Burn Wire Dev Board"
-				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5819,7 +5535,7 @@
 	)
 	(symbol
 		(lib_id "Burn Wire Dev Board:root_3_CC-25SVPF47M_Burn Wire Dev Board.SchLib")
-		(at 223.52 65.2272 0)
+		(at 223.52 66.4972 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5829,7 +5545,7 @@
 		(dnp no)
 		(uuid "4139b674-57d6-469d-8dd9-954afc36f2c8")
 		(property "Reference" "C3"
-			(at 226.314 69.1342 0)
+			(at 226.314 70.4042 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5840,7 +5556,7 @@
 			)
 		)
 		(property "Value" "47 uF"
-			(at 220.726 64.7192 0)
+			(at 220.726 65.9892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5852,7 +5568,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 223.52 65.2272 0)
+			(at 223.52 66.4972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5863,7 +5579,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 65.2272 0)
+			(at 223.52 66.4972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5874,7 +5590,7 @@
 			)
 		)
 		(property "Description" "CAP ALUM POLY 47UF 20% 25V SMD"
-			(at 223.52 65.2272 0)
+			(at 223.52 66.4972 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5885,7 +5601,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 220.726 64.7192 0)
+			(at 220.726 65.9892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5897,7 +5613,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "*"
-			(at 220.726 64.7192 0)
+			(at 220.726 65.9892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5909,7 +5625,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "Manufacture Website"
-			(at 220.726 64.7192 0)
+			(at 220.726 65.9892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5921,7 +5637,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "*"
-			(at 220.726 64.7192 0)
+			(at 220.726 65.9892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5933,7 +5649,7 @@
 			)
 		)
 		(property "DISTRIBUTOR" "Digikey"
-			(at 220.726 64.7192 0)
+			(at 220.726 65.9892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5945,7 +5661,7 @@
 			)
 		)
 		(property "DISTRIBUTOR PART #" "P16513CT-ND"
-			(at 220.726 64.7192 0)
+			(at 220.726 65.9892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5957,7 +5673,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Panasonic Electronic Components"
-			(at 220.726 64.7192 0)
+			(at 220.726 65.9892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5969,7 +5685,7 @@
 			)
 		)
 		(property "MANUFACTURER PART #" "25SVPF47M"
-			(at 220.726 64.7192 0)
+			(at 220.726 65.9892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5981,7 +5697,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" "CAP ALUM POLY 47UF 20% 25V SMD"
-			(at 220.726 64.7192 0)
+			(at 220.726 65.9892 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5993,7 +5709,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "47 uF"
-			(at 226.314 71.6742 0)
+			(at 226.314 72.9442 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6020,7 +5736,7 @@
 	)
 	(symbol
 		(lib_id "Burn Wire Dev Board:root_0_L-IHLP4040DZER6R8M01_Burn Wire Dev Board.SchLib")
-		(at 199.39 65.2272 90)
+		(at 199.39 66.04 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6030,7 +5746,7 @@
 		(dnp no)
 		(uuid "451fd426-4e13-401f-821c-8a10b55eb1cc")
 		(property "Reference" "L1"
-			(at 201.676 62.6872 90)
+			(at 201.676 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6041,7 +5757,7 @@
 			)
 		)
 		(property "Value" "6.8 UH"
-			(at 198.12 69.0372 90)
+			(at 198.12 69.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6053,7 +5769,7 @@
 			)
 		)
 		(property "Footprint" "burn_wire:IND_BOURNS_SRN6045"
-			(at 199.39 65.2272 0)
+			(at 199.39 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6064,7 +5780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 65.2272 0)
+			(at 199.39 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6075,7 +5791,7 @@
 			)
 		)
 		(property "Description" "FIXED IND 6.8UH 8A 23.3 MOHM SMD"
-			(at 199.39 65.2272 0)
+			(at 199.39 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6086,7 +5802,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Vishay Dale"
-			(at 199.39 65.2272 90)
+			(at 199.39 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6098,7 +5814,7 @@
 			)
 		)
 		(property "MANUFACTURER PART #" "IHLP4040DZER6R8M01"
-			(at 199.39 65.2272 90)
+			(at 199.39 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6110,7 +5826,7 @@
 			)
 		)
 		(property "DISTRIBUTOR PART #" "541-1303-1-ND"
-			(at 199.39 65.2272 90)
+			(at 199.39 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6122,7 +5838,7 @@
 			)
 		)
 		(property "DISTRIBUTOR" "Digikey"
-			(at 199.39 65.2272 90)
+			(at 199.39 66.04 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6133,8 +5849,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "ALTIUM_VALUE" "6.8 uH"
-			(at 201.676 68.5292 90)
+		(property "ALTIUM_VALUE" "3.3uH"
+			(at 201.676 69.342 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6170,7 +5886,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5038b47c-58e6-4a0b-94cf-7469aca07cde")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 246.38 165.5572 0)
 			(hide yes)
 			(show_name no)
@@ -6227,7 +5943,7 @@
 		(instances
 			(project "Burn Wire Dev Board"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6441,7 +6157,7 @@
 	)
 	(symbol
 		(lib_id "Burn Wire Dev Board-altium-import:+12_BAR")
-		(at 68.58 108.4072 180)
+		(at 62.23 110.49 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6451,7 +6167,7 @@
 		(dnp no)
 		(uuid "55443dec-90e4-40c7-b2f6-81c43ae2d458")
 		(property "Reference" "#PWR03"
-			(at 68.58 108.4072 0)
+			(at 62.23 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6461,8 +6177,8 @@
 				)
 			)
 		)
-		(property "Value" "+5"
-			(at 68.58 104.5972 0)
+		(property "Value" "+VBATT"
+			(at 62.23 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6472,7 +6188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 108.4072 0)
+			(at 62.23 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6482,7 +6198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 108.4072 0)
+			(at 62.23 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6492,7 +6208,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 108.4072 0)
+			(at 62.23 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6524,7 +6240,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5806c106-de33-48c2-a6ba-bea00a638e42")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 168.91 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6581,7 +6297,7 @@
 		(instances
 			(project "Burn Wire Dev Board"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6661,6 +6377,85 @@
 			(project "Burn Wire Dev Board"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "*2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 237.49 86.36 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6de6f949-4763-48b4-97ea-8727416d8bfe")
+		(property "Reference" "J4"
+			(at 238.76 85.7249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 238.76 88.2649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal"
+			(at 237.49 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 237.49 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ebaf606-7d2a-45a4-8084-53840031835a")
+		)
+		(instances
+			(project "Burn Wire Dev Board"
+				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6995,8 +6790,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Burn Wire Dev Board-altium-import:GND_POWER_GROUND")
-		(at 139.7 176.9872 0)
+		(lib_id "Device:D_Schottky")
+		(at 194.31 69.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7004,106 +6799,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "86de1592-b222-422e-beab-ddf986975fcc")
-		(property "Reference" "#PWR06"
-			(at 139.7 176.9872 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "817d6de9-f200-4bf6-85e6-cca5e3ab3063")
+		(property "Reference" "D1"
+			(at 196.85 68.8974 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 139.7 183.3372 0)
+		(property "Value" "D_Schottky"
+			(at 196.85 71.4374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 139.7 176.9872 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 176.9872 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 176.9872 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "5b5e86d8-143f-4532-8757-5ca02074e96d")
-		)
-		(instances
-			(project "Burn Wire Dev Board"
-				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Burn Wire Dev Board:root_0_mirrored_J-TSM-106-01-F-SV_Burn Wire Dev Board.SchLib")
-		(at 40.64 110.9472 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "925ce59a-1afa-4764-a826-467024b6164a")
-		(property "Reference" "J2"
-			(at 35.56 103.3272 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "J-TSM-106-01-F-SV"
-			(at 35.56 123.6472 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 40.64 110.9472 0)
+		(property "Footprint" "burn_wire:CR_SMB_320-345BE_DIO-L"
+			(at 194.31 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7114,7 +6835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 110.9472 0)
+			(at 194.31 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7124,8 +6845,8 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER SMD 6POS 2.54MM"
-			(at 40.64 110.9472 0)
+		(property "Description" "Schottky diode"
+			(at 194.31 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7135,88 +6856,16 @@
 				)
 			)
 		)
-		(property "MANUFACTURER" "Samtec Inc."
-			(at 35.56 103.3272 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
+		(pin "1"
+			(uuid "2f50dc64-1895-438f-afdd-be09289f2d1f")
 		)
-		(property "DISTRBUTOR PART #" "SAM12239-ND"
-			(at 35.56 103.3272 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "DISTRIBUTOR" "Digikey"
-			(at 35.56 103.3272 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MANUFACTURER PART #" "TSM-106-01-F-SV"
-			(at 35.56 103.3272 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MF" ""
-			(at 35.56 103.3272 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "01"
-			(uuid "e53295d3-4650-4071-9306-06f1ec8382b5")
-		)
-		(pin "02"
-			(uuid "7b3bd033-3d24-4440-90a9-c59d33daafdf")
-		)
-		(pin "03"
-			(uuid "51ab86f9-91ca-4df9-ac01-7928663cd2a7")
-		)
-		(pin "04"
-			(uuid "d18b0a24-8bc0-4366-baac-0064a3b2a91c")
-		)
-		(pin "05"
-			(uuid "379cd885-fd2b-491c-bb92-3d1c3262c852")
-		)
-		(pin "06"
-			(uuid "d1345f13-09de-4859-815e-a83020bdf0b3")
+		(pin "2"
+			(uuid "3dc318bc-8cbe-402b-a5b7-a90a425919e6")
 		)
 		(instances
 			(project "Burn Wire Dev Board"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "J2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7434,7 +7083,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9add7943-513c-4f15-bb93-099ea819966e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 223.52 72.8472 0)
 			(hide yes)
 			(show_name no)
@@ -7491,7 +7140,7 @@
 		(instances
 			(project "Burn Wire Dev Board"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -7531,7 +7180,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
 			(at 215.9 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7916,7 +7565,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae6b631b-6322-46fa-8467-d0dd6bce211d")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 237.49 72.8472 0)
 			(hide yes)
 			(show_name no)
@@ -7973,7 +7622,7 @@
 		(instances
 			(project "Burn Wire Dev Board"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7981,7 +7630,7 @@
 	)
 	(symbol
 		(lib_id "Burn Wire Dev Board:root_3_CC-25SVPF47M_Burn Wire Dev Board.SchLib")
-		(at 237.49 65.2272 0)
+		(at 237.49 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7991,7 +7640,7 @@
 		(dnp no)
 		(uuid "b46aae87-7877-4f0b-a5bb-22e92dbf2bd0")
 		(property "Reference" "C4"
-			(at 240.284 69.1342 0)
+			(at 240.284 69.947 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8002,7 +7651,7 @@
 			)
 		)
 		(property "Value" "47 uF"
-			(at 234.696 64.7192 0)
+			(at 234.696 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8014,7 +7663,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 237.49 65.2272 0)
+			(at 237.49 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8025,7 +7674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 65.2272 0)
+			(at 237.49 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8036,7 +7685,7 @@
 			)
 		)
 		(property "Description" "CAP ALUM POLY 47UF 20% 25V SMD"
-			(at 237.49 65.2272 0)
+			(at 237.49 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8047,7 +7696,7 @@
 			)
 		)
 		(property "COMPONENTLINK1DESCRIPTION" "Datasheet"
-			(at 234.696 64.7192 0)
+			(at 234.696 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8059,7 +7708,7 @@
 			)
 		)
 		(property "COMPONENTLINK1URL" "*"
-			(at 234.696 64.7192 0)
+			(at 234.696 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8071,7 +7720,7 @@
 			)
 		)
 		(property "COMPONENTLINK2DESCRIPTION" "Manufacture Website"
-			(at 234.696 64.7192 0)
+			(at 234.696 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8083,7 +7732,7 @@
 			)
 		)
 		(property "COMPONENTLINK2URL" "*"
-			(at 234.696 64.7192 0)
+			(at 234.696 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8095,7 +7744,7 @@
 			)
 		)
 		(property "DISTRIBUTOR" "Digikey"
-			(at 234.696 64.7192 0)
+			(at 234.696 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8107,7 +7756,7 @@
 			)
 		)
 		(property "DISTRIBUTOR PART #" "P16513CT-ND"
-			(at 234.696 64.7192 0)
+			(at 234.696 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8119,7 +7768,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Panasonic Electronic Components"
-			(at 234.696 64.7192 0)
+			(at 234.696 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8131,7 +7780,7 @@
 			)
 		)
 		(property "MANUFACTURER PART #" "25SVPF47M"
-			(at 234.696 64.7192 0)
+			(at 234.696 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8143,7 +7792,7 @@
 			)
 		)
 		(property "PART DESCRIPTION" "CAP ALUM POLY 47UF 20% 25V SMD"
-			(at 234.696 64.7192 0)
+			(at 234.696 65.532 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8155,7 +7804,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "47 uF"
-			(at 240.284 71.6742 0)
+			(at 240.284 72.487 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8214,7 +7863,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 234.95 105.8672 0)
 			(hide yes)
 			(show_name no)
@@ -8388,6 +8037,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 39.37 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3faef43-1073-4e67-8c48-a7c2b879b867")
+		(property "Reference" "J1"
+			(at 40.005 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_Pin"
+			(at 40.005 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+			(at 39.37 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 39.37 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2fd11dd-22d8-4263-bf5c-5e73c326bd82")
+		)
+		(pin "2"
+			(uuid "da1db203-0448-4068-a26d-8b1bf17111d1")
+		)
+		(pin "3"
+			(uuid "52b25086-82a1-44a5-83e8-e1d559da0f75")
+		)
+		(pin "4"
+			(uuid "9c164330-d76f-41f6-a68e-831a5b9e1fc8")
+		)
+		(pin "5"
+			(uuid "2fc64a65-5f0f-428b-b31e-086c18272d38")
+		)
+		(pin "6"
+			(uuid "7e551016-cd3f-4903-a495-1d89652a624f")
+		)
+		(instances
+			(project "Burn Wire Dev Board"
+				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Burn Wire Dev Board-altium-import:+12_BAR")
 		(at 60.96 57.6072 180)
 		(unit 1)
@@ -8409,7 +8150,7 @@
 				)
 			)
 		)
-		(property "Value" "+5"
+		(property "Value" "+VBATT"
 			(at 60.96 53.7972 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8569,7 +8310,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 234.95 116.0272 0)
 			(hide yes)
 			(show_name no)
@@ -8945,7 +8686,7 @@
 	)
 	(symbol
 		(lib_id "Burn Wire Dev Board-altium-import:GND_POWER_GROUND")
-		(at 194.31 75.3872 0)
+		(at 194.31 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8954,8 +8695,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d875d59b-2ee2-4852-b53b-a3de7e1c6f13")
-		(property "Reference" "#PWR09"
-			(at 194.31 75.3872 0)
+		(property "Reference" "#PWR08"
+			(at 194.31 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8966,7 +8707,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 81.7372 0)
+			(at 194.31 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8976,7 +8717,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 75.3872 0)
+			(at 194.31 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8986,7 +8727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 75.3872 0)
+			(at 194.31 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8996,7 +8737,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 75.3872 0)
+			(at 194.31 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9011,7 +8752,7 @@
 		(instances
 			(project "Burn Wire Dev Board"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9028,7 +8769,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da24d5df-7e72-43da-96a2-5fc48859f184")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 234.95 116.0272 0)
 			(hide yes)
 			(show_name no)
@@ -9085,7 +8826,7 @@
 		(instances
 			(project "Burn Wire Dev Board"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9102,7 +8843,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dcc0823f-752c-4a24-82f9-97084a0ddc2d")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 257.81 165.5572 0)
 			(hide yes)
 			(show_name no)
@@ -9159,7 +8900,7 @@
 		(instances
 			(project "Burn Wire Dev Board"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9176,7 +8917,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec7aaaf0-eee3-481f-83cb-eedb09a296d8")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 148.59 62.6872 0)
 			(hide yes)
 			(show_name no)
@@ -9187,7 +8928,7 @@
 				)
 			)
 		)
-		(property "Value" "+5"
+		(property "Value" "+VBATT"
 			(at 148.59 58.8772 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9233,7 +8974,7 @@
 		(instances
 			(project "Burn Wire Dev Board"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -9271,7 +9012,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 225.044 90.424 90)
 			(hide yes)
 			(show_name no)
@@ -9409,7 +9150,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe46a833-796a-4eb0-876e-dc328cb13c76")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 217.17 168.0972 0)
 			(hide yes)
 			(show_name no)
@@ -9466,7 +9207,7 @@
 		(instances
 			(project "Burn Wire Dev Board"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
