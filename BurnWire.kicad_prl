@@ -34,7 +34,6 @@
       "footprint_text",
       "footprint_anchors",
       "ratsnest",
-      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -53,7 +52,7 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffffd_77ff557f",
+    "visible_layers": "ffffffff_ffffffff_fffffffd_77ff55ff",
     "zone_display_mode": 0
   },
   "git": {
@@ -63,7 +62,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "Burn Wire Dev Board.kicad_prl",
+    "filename": "BurnWire.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -94,14 +93,14 @@
     "col_widths": [
       156,
       141,
+      113,
+      92,
       103,
-      71,
+      115,
       103,
+      98,
       103,
-      103,
-      74,
-      103,
-      103
+      121
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

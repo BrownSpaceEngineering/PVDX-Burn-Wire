@@ -3243,6 +3243,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
 		(start 15.24 89.3572)
@@ -3420,6 +3535,12 @@
 		(uuid "430cd61b-e497-4d12-b96f-629b54a4f641")
 	)
 	(junction
+		(at 58.42 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48108ef9-6a2f-4e72-a583-71c00d0dcec9")
+	)
+	(junction
 		(at 201.93 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3436,6 +3557,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f84a24f-9dd9-47e8-b8e8-85db59a45e80")
+	)
+	(junction
+		(at 66.04 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a20664f-fe68-40ea-8e2b-cc84cc348fa2")
 	)
 	(junction
 		(at 60.96 57.6072)
@@ -3511,16 +3638,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 66.04) (xy 237.49 65.2272)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0961ed65-316c-4562-802d-5b2247750a86")
-	)
-	(wire
-		(pts
 			(xy 168.91 78.74) (xy 171.45 78.74)
 		)
 		(stroke
@@ -3588,6 +3705,16 @@
 			(type default)
 		)
 		(uuid "2fce9d57-7f68-437c-8a24-1f93d1df4895")
+	)
+	(wire
+		(pts
+			(xy 44.45 110.49) (xy 58.42 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31290d8b-568b-42bd-8793-78b7b32f3e22")
 	)
 	(wire
 		(pts
@@ -3718,6 +3845,16 @@
 			(type default)
 		)
 		(uuid "6acd5780-decc-4ec3-b39a-d0b5d56a4f6f")
+	)
+	(wire
+		(pts
+			(xy 66.04 118.11) (xy 66.04 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c60206d-adbb-4e29-b19e-021e6355b9e6")
 	)
 	(wire
 		(pts
@@ -4011,7 +4148,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 110.49) (xy 44.45 110.49)
+			(xy 66.04 110.49) (xy 58.42 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4041,7 +4178,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 115.57) (xy 66.04 123.19)
+			(xy 66.04 115.57) (xy 66.04 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4227,7 +4364,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 251.46 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4386,7 +4523,7 @@
 			(uuid "3b36943d-570d-432e-930b-877f4589832c")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "C5")
 					(unit 1)
@@ -4513,7 +4650,7 @@
 			(uuid "63f93750-44ec-4956-aa24-039697d358f9")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "TP2")
 					(unit 1)
@@ -4640,7 +4777,7 @@
 			(uuid "7afe1b35-f6a3-4fc9-8fc2-c1c4c0c01416")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "TP5")
 					(unit 1)
@@ -4742,7 +4879,7 @@
 			(uuid "ed2ef3ac-befa-4c55-b22c-37a094e26e0c")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "U1")
 					(unit 1)
@@ -4816,7 +4953,7 @@
 			(uuid "96f55705-3f51-472f-973e-4e80e7c898b9")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR018")
 					(unit 1)
@@ -4890,9 +5027,87 @@
 			(uuid "4673ca2b-d850-4179-acaa-ee63a9ff266a")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 66.04 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2274b6d9-9f83-48b3-bc81-d5e0ecfecba7")
+		(property "Reference" "#FLG02"
+			(at 66.04 116.205 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 66.04 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 66.04 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1e6574a-0dc9-45db-91b4-642d0ae99f4e")
+		)
+		(instances
+			(project "BurnWire"
+				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -4964,7 +5179,7 @@
 			(uuid "5f8d54e3-d995-4d3a-8247-08b691275e42")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR09")
 					(unit 1)
@@ -5038,7 +5253,7 @@
 			(uuid "a5a174e4-1ddc-4ba4-ba56-baf3512e2f54")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR010")
 					(unit 1)
@@ -5112,7 +5327,7 @@
 			(uuid "50ea2adc-38a0-4b91-8fa1-e593db00a548")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR04")
 					(unit 1)
@@ -5194,7 +5409,7 @@
 			(uuid "01096a51-6b5f-4b9a-a0f8-746bd275236d")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "J3")
 					(unit 1)
@@ -5395,7 +5610,7 @@
 			(uuid "6277f50a-9d3d-4ed3-a1f9-29fd898234c6")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "C2")
 					(unit 1)
@@ -5525,7 +5740,7 @@
 			(uuid "bf1e8079-dd26-408e-af73-e70a2c9bcf95")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "J2")
 					(unit 1)
@@ -5567,7 +5782,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 223.52 66.4972 0)
 			(hide yes)
 			(show_name no)
@@ -5726,7 +5941,7 @@
 			(uuid "25fd671f-2b38-43bc-a41c-eb0346d978de")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "C3")
 					(unit 1)
@@ -5867,7 +6082,7 @@
 			(uuid "46822a5e-f8b5-4a45-a9ef-790791af7b89")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "L1")
 					(unit 1)
@@ -5941,7 +6156,7 @@
 			(uuid "73f62de1-6e06-49e1-956f-cc8fb7f1f40b")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR015")
 					(unit 1)
@@ -6068,7 +6283,7 @@
 			(uuid "6efb3a13-aed1-4781-b7d2-a25179ee4594")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "TP3")
 					(unit 1)
@@ -6147,7 +6362,7 @@
 			(uuid "d2e2919b-d969-4b14-9729-30949aa0d3c3")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "*3")
 					(unit 1)
@@ -6157,7 +6372,7 @@
 	)
 	(symbol
 		(lib_id "Burn Wire Dev Board-altium-import:+12_BAR")
-		(at 62.23 110.49 180)
+		(at 66.04 110.49 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6167,7 +6382,7 @@
 		(dnp no)
 		(uuid "55443dec-90e4-40c7-b2f6-81c43ae2d458")
 		(property "Reference" "#PWR03"
-			(at 62.23 110.49 0)
+			(at 66.04 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6178,7 +6393,7 @@
 			)
 		)
 		(property "Value" "+VBATT"
-			(at 62.23 106.68 0)
+			(at 66.04 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6188,7 +6403,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 110.49 0)
+			(at 66.04 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6198,7 +6413,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 110.49 0)
+			(at 66.04 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6208,7 +6423,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 110.49 0)
+			(at 66.04 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6221,7 +6436,7 @@
 			(uuid "d0926a3b-9423-48ca-9317-016477f183dd")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR03")
 					(unit 1)
@@ -6295,7 +6510,7 @@
 			(uuid "23ce0273-8b77-49a2-bec9-adf11b549177")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR07")
 					(unit 1)
@@ -6374,7 +6589,7 @@
 			(uuid "119bab4f-0362-45a3-bb8b-ad845b7b250c")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "*2")
 					(unit 1)
@@ -6453,7 +6668,7 @@
 			(uuid "0ebaf606-7d2a-45a4-8084-53840031835a")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "J4")
 					(unit 1)
@@ -6580,7 +6795,7 @@
 			(uuid "26404e6b-8a5f-4d92-85b9-cd0540aca3f6")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "TP1")
 					(unit 1)
@@ -6654,7 +6869,7 @@
 			(uuid "6c0c74da-7a54-42ac-97ee-d4f81a9e6136")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR01")
 					(unit 1)
@@ -6781,7 +6996,7 @@
 			(uuid "8089572a-f485-4d83-ab35-42c8bef4870b")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "TP4")
 					(unit 1)
@@ -6863,7 +7078,7 @@
 			(uuid "3dc318bc-8cbe-402b-a5b7-a90a425919e6")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "D1")
 					(unit 1)
@@ -7064,7 +7279,7 @@
 			(uuid "5a96b33a-d391-4e6c-8061-ae57fe1c358d")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "R1")
 					(unit 1)
@@ -7138,7 +7353,7 @@
 			(uuid "5132a0d6-05b4-4328-bb53-57649933e9a4")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR012")
 					(unit 1)
@@ -7339,7 +7554,7 @@
 			(uuid "7a6f9994-0cc8-49f4-9f94-154688984b09")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "R3")
 					(unit 1)
@@ -7546,7 +7761,7 @@
 			(uuid "c15e8e4a-ded5-4fea-83cc-7866f0eeb218")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "R2")
 					(unit 1)
@@ -7620,9 +7835,87 @@
 			(uuid "80fa8502-2e3e-4f1a-9845-863f91e59cb6")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 58.42 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2866bfb-ee62-491b-9b3f-67f204d5b53a")
+		(property "Reference" "#FLG01"
+			(at 58.42 108.585 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 58.42 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 58.42 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a7db31d-f930-4e06-8b0c-8085f1aa51d3")
+		)
+		(instances
+			(project "BurnWire"
+				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -7662,7 +7955,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 237.49 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7821,7 +8114,7 @@
 			(uuid "892de364-58e4-45db-8cd9-939ca71b5fdf")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "C4")
 					(unit 1)
@@ -8022,7 +8315,7 @@
 			(uuid "c2d4b0b5-ed46-4c11-8237-4fbb71eaec16")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "R5")
 					(unit 1)
@@ -8120,7 +8413,7 @@
 			(uuid "7e551016-cd3f-4903-a495-1d89652a624f")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "J1")
 					(unit 1)
@@ -8194,7 +8487,7 @@
 			(uuid "5bc9bbfc-8e10-4380-b85c-a8ba5c9accd5")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR02")
 					(unit 1)
@@ -8268,7 +8561,7 @@
 			(uuid "f8def786-cca3-4235-b294-f3864a8d0707")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR05")
 					(unit 1)
@@ -8469,7 +8762,7 @@
 			(uuid "64287d2d-4cd7-47d8-84ed-4cd4affba2c0")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "R6")
 					(unit 1)
@@ -8676,7 +8969,7 @@
 			(uuid "97e8daaa-2ea7-4360-b1a2-e80772dbae40")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "C1")
 					(unit 1)
@@ -8750,7 +9043,7 @@
 			(uuid "3c309b18-541f-4e3b-a13c-c1d55f2895b3")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR08")
 					(unit 1)
@@ -8824,7 +9117,7 @@
 			(uuid "e7757515-def8-4e23-a7ff-3220e32f0dff")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR013")
 					(unit 1)
@@ -8898,7 +9191,7 @@
 			(uuid "9bf77fb2-989e-4840-b9ff-bb1464441e6e")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR017")
 					(unit 1)
@@ -8972,7 +9265,7 @@
 			(uuid "bc9dd6fd-6391-4668-b8bf-42aaa32b8a74")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR06")
 					(unit 1)
@@ -9052,7 +9345,7 @@
 			(uuid "ddb7758f-5c94-4f0c-9d96-90164010b719")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "R4")
 					(unit 1)
@@ -9131,7 +9424,7 @@
 			(uuid "c5643248-9644-41b3-8332-2802f04e439a")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "*1")
 					(unit 1)
@@ -9205,7 +9498,7 @@
 			(uuid "74fb9e22-2254-4b65-b50d-275527d0417e")
 		)
 		(instances
-			(project "Burn Wire Dev Board"
+			(project "BurnWire"
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR011")
 					(unit 1)

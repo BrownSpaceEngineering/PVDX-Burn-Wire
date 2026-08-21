@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 5.9944,
-          "width": 2.0066
+          "drill": 2.4,
+          "height": 4.8,
+          "width": 4.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -503,7 +503,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Burn Wire Dev Board.kicad_pro",
+    "filename": "BurnWire.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -749,12 +749,12 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Burn Wire Dev Board.kicad_sch",
-        "name": "Burn Wire Dev Board",
+        "filename": "BurnWire.kicad_sch",
+        "name": "BurnWire",
         "uuid": "0fd6e625-7aca-4166-a19e-36e67376263d"
       }
     ],
-    "used_designators": "J4",
+    "used_designators": "",
     "variants": [
       {
         "name": "Build"
@@ -764,7 +764,7 @@
   "sheets": [
     [
       "0fd6e625-7aca-4166-a19e-36e67376263d",
-      "Burn Wire Dev Board"
+      "BurnWire"
     ]
   ],
   "text_variables": {
