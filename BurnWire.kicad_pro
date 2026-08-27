@@ -557,7 +557,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "manufacturing/",
       "specctra_dsn": "",
       "step": "BurnWire.step",
       "vrml": ""
