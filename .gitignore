@@ -10,3 +10,4 @@ fp-info-cache
 # OS
 .DS_Store
 Thumbs.db
+*.kicad_prl

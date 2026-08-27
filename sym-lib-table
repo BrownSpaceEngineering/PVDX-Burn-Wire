@@ -1,4 +1,7 @@
 (sym_lib_table
   (version 7)
-  (lib (name "imported_symbols")(type "KiCad")(uri "${KIPRJMOD}/imported_components/imported_symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "B330B-13-F")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/B330B-13-F.kicad_sym")(options "")(descr ""))
+  (lib (name "B6B-XH-A_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/B6B-XH-A_LF__SN_.kicad_sym")(options "")(descr ""))
+  (lib (name "NLV32T-3R3J-EF")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/NLV32T-3R3J-EF.kicad_sym")(options "")(descr ""))
+  (lib (name "WCAP-ASLI_5X5.5")(type "KiCad")(uri "${KIPRJMOD}/libs/symbols/WCAP-ASLI_5X5.5.kicad_sym")(options "")(descr ""))
 )
