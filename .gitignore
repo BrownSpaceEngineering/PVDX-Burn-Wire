@@ -11,3 +11,5 @@ fp-info-cache
 .DS_Store
 Thumbs.db
 *.kicad_prl
+.history/
+.history/
