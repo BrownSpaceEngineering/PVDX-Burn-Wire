@@ -5,7 +5,7 @@ Burn-wire release board for the PVDX CubeSat. Generates a constant current of 1.
 ## Status
 - Design phase: manufactured (rev-3.1 sent to fab 2026-08-22)
 - Current rev: rev-3.1
-- Contributors: Atharv Chowdhary, Nick Cavallo, Jayla Hsiung, Emily Zhang, Kelly Lin, Natalie Cavallo
+- Contributors: Atharv Chowdhary, Nick Cavallo, Jayla Hsiung, Emily Zhang, Kelly Lin, Natalie Cavallo, Misha Zinchuk
 
 ## System overview
 
@@ -26,6 +26,7 @@ Known components on the board (confirmed via schematic/PCB library references, n
 ```
 BurnWire/
 ├── BurnWire.kicad_pro / .kicad_sch / .kicad_pcb / .step
+├── LTSpice_burnWire.asc
 ├── fp-lib-table, sym-lib-table
 ├── libs/
 │   ├── footprints.pretty/
@@ -34,7 +35,7 @@ BurnWire/
     └── rev-1_2026-08-22/
         └── gerbers/
 ```
-No `schematics/`, `spice/`, or `tools/` — this board has no hierarchical sheets and no LTSpice simulations on file yet.
+No schematics/, spice/, or tools/ directories — the LTSpice simulation is currently stored at the repository root as LTSpice_burnWire.asc.
 
 ## Key design notes
 - **Inherited from Altium, not yet fully re-linked in KiCad.** Nearly every custom part on the schematic (`Burn Wire Dev Board-altium-import:*`, `Burn Wire Dev Board:root_N_*`, `PowerManagmentBoard_V4.0:*`) has no corresponding entry in `sym-lib-table`. The schematic still opens and renders correctly because KiCad caches each symbol's full geometry inline at placement time — `sym-lib-table` is only consulted when re-editing or re-placing a symbol. Don't take "it opens fine" as evidence the library links are healthy.
@@ -43,7 +44,7 @@ No `schematics/`, `spice/`, or `tools/` — this board has no hierarchical sheet
 - `libs/symbols/` now holds four properly filed vendor symbols (B330B-13-F, B6B-XH-A_LF__SN_, NLV32T-3R3J-EF, WCAP-ASLI_5X5.5), but **none are currently referenced by the schematic** — the placed parts use generic `Device:`/`Connector:` symbols instead. These are available for future use, not currently wired in.
 
 ## Simulations
-None on file for this board yet.
+- `LTSpice_burnWire.asc` — LTSpice simulation of the burn-wire constant-current regulator.
 
 ## Manufacturing history
 | Rev | Date | Notes | Location |
