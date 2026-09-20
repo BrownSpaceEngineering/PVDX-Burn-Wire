@@ -607,19 +607,19 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -635,75 +635,39 @@
         },
         {
           "group_by": false,
-          "label": "COMPONENTLINK1DESCRIPTION",
-          "name": "COMPONENTLINK1DESCRIPTION",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "COMPONENTLINK1URL",
-          "name": "COMPONENTLINK1URL",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "COMPONENTLINK2DESCRIPTION",
-          "name": "COMPONENTLINK2DESCRIPTION",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "COMPONENTLINK2URL",
-          "name": "COMPONENTLINK2URL",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DISTRIBUTOR",
+          "label": "Distributor",
           "name": "DISTRIBUTOR",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
-          "label": "DISTRIBUTOR PART #",
+          "label": "Distributor PN",
           "name": "DISTRIBUTOR PART #",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
-          "label": "MANUFACTURER",
+          "label": "Manufacturer",
           "name": "MANUFACTURER",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
-          "label": "MANUFACTURER PART #",
+          "label": "MPN",
           "name": "MANUFACTURER PART #",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PART DESCRIPTION",
-          "name": "PART DESCRIPTION",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "ALTIUM_VALUE",
-          "name": "ALTIUM_VALUE",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
@@ -711,7 +675,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
