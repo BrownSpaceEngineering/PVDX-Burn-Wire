@@ -5,4 +5,5 @@
 	(lib (name "NLV32T-3R3J-EF") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/NLV32T-3R3J-EF.kicad_sym") (options "") (descr ""))
 	(lib (name "WCAP-ASLI_5X5.5") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/WCAP-ASLI_5X5.5.kicad_sym") (options "") (descr ""))
 	(lib (name "imported_symbols") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/imported_symbols.kicad_sym") (options "") (descr ""))
+	(lib (name "GRM32ER60J476ME20L") (type "KiCad") (uri "${KIPRJMOD}/libs/symbols/2026-09-26_21-58-19.kicad_sym") (options "") (descr ""))
 )
