@@ -5,146 +5,6 @@
 	(uuid "840527c9-4090-402f-b349-039f3adcd7d7")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:Conn_01x01_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01_Pin"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x01_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016)
@@ -2534,149 +2394,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "imported_symbols:R_Small_US_Alt"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 1.27 1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "R_Small_US_Alt"
-				(at 1.27 -3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor, small US symbol (alt)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*0402*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_Small_US_Alt_1_0"
-				(polyline
-					(pts
-						(xy 1.27 -0.508) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.508) (xy 1.778 0.508) (xy 2.286 -0.508) (xy 2.794 0.508) (xy 3.302 -0.508) (xy 3.81 0.508)
-						(xy 4.064 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 1.016)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 1.016)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+BATT"
 			(power global)
 			(pin_numbers
@@ -3213,34 +2930,10 @@
 		(uuid "56338976-ada9-4b58-a5cf-17a218e66056")
 	)
 	(junction
-		(at 237.49 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5678012d-185b-4815-b905-3f98c0400656")
-	)
-	(junction
-		(at 234.95 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f84a24f-9dd9-47e8-b8e8-85db59a45e80")
-	)
-	(junction
-		(at 185.42 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8474d585-a001-44bd-af0b-8eb2fe92e3b5")
-	)
-	(junction
 		(at 194.31 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8672bc42-d326-40f2-b765-5117001ff2a5")
-	)
-	(junction
-		(at 215.9 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e7be104-6c07-4715-b393-413a3b8f887e")
 	)
 	(junction
 		(at 237.49 68.58)
@@ -3264,17 +2957,7 @@
 		(at 45.72 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c3730fd4-b96e-4e4e-ba2a-dd2818321a58")
-	)
-	(wire
-		(pts
-			(xy 234.95 97.79) (xy 246.38 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02a60226-9066-4b50-8405-42299ed641a5")
+		(uuid "e2dd3872-5618-4f59-a2e2-11e4651dd307")
 	)
 	(wire
 		(pts
@@ -3318,16 +3001,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 107.95) (xy 234.95 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e7ae364-7d2d-4334-8de3-f62d511ef3e2")
-	)
-	(wire
-		(pts
 			(xy 45.72 115.57) (xy 45.72 118.11)
 		)
 		(stroke
@@ -3368,26 +3041,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 118.11) (xy 45.72 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ad06739-87cf-4a8d-804d-e1f38660e8c6")
-	)
-	(wire
-		(pts
-			(xy 185.42 107.95) (xy 185.42 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cff6265-3607-499b-b8e3-072717083e4f")
-	)
-	(wire
-		(pts
 			(xy 194.31 68.58) (xy 194.31 67.31)
 		)
 		(stroke
@@ -3425,16 +3078,6 @@
 			(type default)
 		)
 		(uuid "4e476ec9-3078-41d0-b9cd-817b38e96e9a")
-	)
-	(wire
-		(pts
-			(xy 228.6 91.44) (xy 237.49 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58f90125-89a4-4fe8-8d61-4a2bb2ebf79d")
 	)
 	(wire
 		(pts
@@ -3518,6 +3161,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 118.11) (xy 45.72 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4ef88a-67f5-4297-9f9f-3916dfff1267")
+	)
+	(wire
+		(pts
 			(xy 142.24 158.75) (xy 124.46 158.75)
 		)
 		(stroke
@@ -3548,16 +3201,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 91.44) (xy 220.98 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97374eb5-00ab-4098-a6a7-1d387a4ed571")
-	)
-	(wire
-		(pts
 			(xy 123.19 62.23) (xy 123.19 63.5)
 		)
 		(stroke
@@ -3565,16 +3208,6 @@
 			(type default)
 		)
 		(uuid "983721aa-d311-4677-9be0-51e6048ce56a")
-	)
-	(wire
-		(pts
-			(xy 234.95 100.33) (xy 234.95 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9990eb4b-8432-4a5a-a0e6-9b8569851eaf")
 	)
 	(wire
 		(pts
@@ -3595,16 +3228,6 @@
 			(type default)
 		)
 		(uuid "99e66959-000a-4aad-abef-4b16b43f7875")
-	)
-	(wire
-		(pts
-			(xy 234.95 110.49) (xy 234.95 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a574cec-7094-4782-b007-d1cf6952bb23")
 	)
 	(wire
 		(pts
@@ -3635,16 +3258,6 @@
 			(type default)
 		)
 		(uuid "9c189f67-c60b-4a42-a21c-bff0e41b206c")
-	)
-	(wire
-		(pts
-			(xy 234.95 107.95) (xy 185.42 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a012b3cf-7bf9-425b-8e24-7f4a71e85eac")
 	)
 	(wire
 		(pts
@@ -3725,16 +3338,6 @@
 			(type default)
 		)
 		(uuid "c3e1858a-b5f9-4b13-9c60-878401dc234f")
-	)
-	(wire
-		(pts
-			(xy 237.49 91.44) (xy 242.57 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d521f975-7c0a-4f42-a901-102062744def")
 	)
 	(wire
 		(pts
@@ -3856,15 +3459,15 @@
 		)
 		(uuid "76ed9099-c19e-497c-9da0-5d151c52f115")
 	)
-	(label "BURN_POS"
-		(at 246.38 97.79 180)
+	(label "FB"
+		(at 185.42 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "dfcd2f4d-a859-44da-ad01-e4d3c22a827d")
+		(uuid "98c9cc5d-153a-441e-8360-323afaa22806")
 	)
 	(label "PGOOD"
 		(at 139.7 74.93 0)
@@ -3895,30 +3498,6 @@
 			(justify left bottom)
 		)
 		(uuid "f170cd81-9302-469b-8e23-5ea652d033df")
-	)
-	(global_label "TO_COMPUTE"
-		(shape output)
-		(at 242.57 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0b34e7ce-449a-49b0-8356-e32ed784330a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.5899 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
@@ -4045,9 +3624,6 @@
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "C5")
 					(unit 1)
-					(variant
-						(name "Build")
-					)
 				)
 			)
 		)
@@ -4126,9 +3702,6 @@
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "TP2")
 					(unit 1)
-					(variant
-						(name "Build")
-					)
 				)
 			)
 		)
@@ -4207,9 +3780,6 @@
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "TP5")
 					(unit 1)
-					(variant
-						(name "Build")
-					)
 				)
 			)
 		)
@@ -4312,9 +3882,6 @@
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "U1")
 					(unit 1)
-					(variant
-						(name "Build")
-					)
 				)
 			)
 		)
@@ -4784,9 +4351,6 @@
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "J3")
 					(unit 1)
-					(variant
-						(name "Build")
-					)
 				)
 			)
 		)
@@ -4916,9 +4480,6 @@
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "C2")
 					(unit 1)
-					(variant
-						(name "Build")
-					)
 				)
 			)
 		)
@@ -5048,9 +4609,6 @@
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "J2")
 					(unit 1)
-					(variant
-						(name "Build")
-					)
 				)
 			)
 		)
@@ -5180,9 +4738,6 @@
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "C3")
 					(unit 1)
-					(variant
-						(name "Build")
-					)
 				)
 			)
 		)
@@ -5208,7 +4763,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8u"
+		(property "Value" "3.3u"
 			(at 207.264 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5310,9 +4865,6 @@
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "L1")
 					(unit 1)
-					(variant
-						(name "Build")
-					)
 				)
 			)
 		)
@@ -5391,9 +4943,6 @@
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "TP3")
 					(unit 1)
-					(variant
-						(name "Build")
-					)
 				)
 			)
 		)
@@ -5553,88 +5102,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x01_Pin")
-		(at 237.49 86.36 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6de6f949-4763-48b4-97ea-8727416d8bfe")
-		(property "Reference" "J4"
-			(at 238.76 85.7249 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x01_Pin"
-			(at 238.76 88.2649 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Horizontal"
-			(at 237.49 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 237.49 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ebaf606-7d2a-45a4-8084-53840031835a")
-		)
-		(instances
-			(project "BurnWire"
-				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "J4")
-					(unit 1)
-					(variant
-						(name "Build")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint_Alt")
 		(at 60.96 57.15 270)
 		(unit 1)
@@ -5708,9 +5175,6 @@
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "TP1")
 					(unit 1)
-					(variant
-						(name "Build")
-					)
 				)
 			)
 		)
@@ -5866,9 +5330,6 @@
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "TP4")
 					(unit 1)
-					(variant
-						(name "Build")
-					)
 				)
 			)
 		)
@@ -5995,9 +5456,6 @@
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "D1")
 					(unit 1)
-					(variant
-						(name "Build")
-					)
 				)
 			)
 		)
@@ -6127,9 +5585,6 @@
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "R1")
 					(unit 1)
-					(variant
-						(name "Build")
-					)
 				)
 			)
 		)
@@ -6234,7 +5689,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.25R"
+		(property "Value" "0.5R"
 			(at 217.17 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6470,9 +5925,6 @@
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "R2")
 					(unit 1)
-					(variant
-						(name "Build")
-					)
 				)
 			)
 		)
@@ -6758,144 +6210,6 @@
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "C4")
 					(unit 1)
-					(variant
-						(name "Build")
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "imported_symbols:R_Small_US_Alt")
-		(at 234.95 105.41 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b63a7e6b-3462-463e-9ea8-5dc108c500b6")
-		(property "Reference" "R5"
-			(at 235.966 100.838 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "0R"
-			(at 235.966 103.378 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 234.95 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"
-			(at 234.95 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 234.95 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DISTRIBUTOR" "Digikey"
-			(at 240.538 104.648 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "DISTRIBUTOR PART #" "RMCF0603ZT0R00CT-ND"
-			(at 240.538 104.648 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER" "Stackpole Electronics Inc"
-			(at 240.538 104.648 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER PART #" "RMCF0603ZT0R00"
-			(at 240.538 104.648 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "4d9f1d85-bbd0-4d32-b210-ed8a10844467")
-		)
-		(pin "2"
-			(uuid "c2d4b0b5-ed46-4c11-8237-4fbb71eaec16")
-		)
-		(instances
-			(project "BurnWire"
-				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "R5")
-					(unit 1)
-					(variant
-						(name "Build")
-						(dnp yes)
-						(in_bom no)
-						(in_pos_files no)
-					)
 				)
 			)
 		)
@@ -6987,9 +6301,6 @@
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "J1")
 					(unit 1)
-					(variant
-						(name "Build")
-					)
 				)
 			)
 		)
@@ -7149,141 +6460,6 @@
 		)
 	)
 	(symbol
-		(lib_id "imported_symbols:R_Small_US_Alt")
-		(at 234.95 115.57 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ceb86707-7edb-4725-937c-a7b92ab6c9da")
-		(property "Reference" "R6"
-			(at 235.966 110.998 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "0R"
-			(at 235.966 113.538 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 234.95 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/models/ERJ2GE0R00X"
-			(at 234.95 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 234.95 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DISTRIBUTOR" "Digikey"
-			(at 240.538 114.808 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "DISTRIBUTOR PART #" "RMCF0603ZT0R00CT-ND"
-			(at 240.538 114.808 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER" "Stackpole Electronics Inc"
-			(at 240.538 114.808 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER PART #" "RMCF0603ZT0R00"
-			(at 240.538 114.808 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "880366cf-6cc0-4305-adbd-89cf91444a2c")
-		)
-		(pin "2"
-			(uuid "64287d2d-4cd7-47d8-84ed-4cd4affba2c0")
-		)
-		(instances
-			(project "BurnWire"
-				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "R6")
-					(unit 1)
-					(variant
-						(name "Build")
-						(dnp yes)
-						(in_bom no)
-						(in_pos_files no)
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 135.89 66.04 0)
 		(unit 1)
@@ -7408,9 +6584,6 @@
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "C1")
 					(unit 1)
-					(variant
-						(name "Build")
-					)
 				)
 			)
 		)
@@ -7493,83 +6666,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 234.95 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "da24d5df-7e72-43da-96a2-5fc48859f184")
-		(property "Reference" "#PWR013"
-			(at 234.95 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 234.95 119.634 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7757515-def8-4e23-a7ff-3220e32f0dff")
-		)
-		(instances
-			(project "BurnWire"
-				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 129.54 62.23 0)
 		(unit 1)
@@ -7642,88 +6738,6 @@
 				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
 					(reference "#PWR06")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 224.79 91.44 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f2c8fed3-84e6-4b3a-a3a8-b51890c0d71d")
-		(property "Reference" "R4"
-			(at 224.79 88.9 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 224.79 93.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 225.044 90.424 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 224.79 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1404f066-2fb5-415e-a1bd-2d607ba6a0ae")
-		)
-		(pin "2"
-			(uuid "ddb7758f-5c94-4f0c-9d96-90164010b719")
-		)
-		(instances
-			(project "BurnWire"
-				(path "/0fd6e625-7aca-4166-a19e-36e67376263d"
-					(reference "R4")
-					(unit 1)
-					(variant
-						(name "Build")
-					)
 				)
 			)
 		)
