@@ -14,3 +14,9 @@ Thumbs.db
 .history/
 .history/
 .history/
+
+# LTspice simulation outputs
+*.raw
+*.log
+*.net
+# LTspice schematic files (.asc) should remain tracked
