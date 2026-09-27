@@ -255,7 +255,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "4.0"
+      "sch_revision": "4.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -718,7 +718,7 @@
         "uuid": "0fd6e625-7aca-4166-a19e-36e67376263d"
       }
     ],
-    "used_designators": "C3-5",
+    "used_designators": "C3-5,#PWR13,#PWR15,Q1,J4,R4-8,TP6-7",
     "variants": [
       {
         "name": "Build"
