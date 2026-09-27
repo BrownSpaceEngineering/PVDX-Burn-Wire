@@ -13,3 +13,10 @@ Thumbs.db
 *.kicad_prl
 .history/
 .history/
+.history/
+
+# LTspice simulation outputs
+*.raw
+*.log
+*.net
+# LTspice schematic files (.asc) should remain tracked
